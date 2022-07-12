@@ -28,7 +28,5 @@ async execute(interaction, client) {
                 }
             ]
         });
-
-       if (reply === true) return client.channels.cache.get("953370553673216000").send(`${interaction.user} использовал \`${interaction.commandName}\``)
     },
 }
